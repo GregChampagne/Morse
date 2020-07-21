@@ -72,4 +72,8 @@ def main():
         print(i.letter + " " + i.code)
     create_tree(nodes, root)
 
+    printout = root.traverse(root)
+    for i in printout:
+        print(i.letter + " " + i.code)
+
 main()
